@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+hr {
+  margin: 1.5em 0;
+}
+.site {
+  padding: 1em;
+}
+.site > * {
+  outline: #F00 1px dotted;
+}
+.some-list {
+  margin: 1em 2em;
+}
+.some-list__item {
+  cursor: pointer;
+  color: #AB18B8;
+}
+.btn {
+  padding: 10px 20px;
+  color: #FFF;
+  background: #333;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.message {
+   background-color: #f1f1f1;
+   padding: 0.75em;
+   margin: 1em 0;
+   border-radius: 5px;
+}
+.message span {
+  display: block;
+  font-size: 12px;
+}
